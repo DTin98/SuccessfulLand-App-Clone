@@ -1,0 +1,38 @@
+.navbar{
+    background: #3F3F3F;
+    font-family: montserrat;
+}
+
+.nav-item>a {
+    color :white !important;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-collapse .nav-item{
+        text-align: center;
+        margin-right:0 !important;
+        margin-top:1rem
+    }
+}
+
+@media (max-width: 393px){
+    .navbar-brand{
+        width: 70%;
+    }
+}
+
+.avartar{
+    max-width: 90%;
+}
+
+
+
+

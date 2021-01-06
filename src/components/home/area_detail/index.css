@@ -1,0 +1,45 @@
+.detail-header span{
+    color:black
+}
+
+.line{
+    border: 1px solid #E5E5E5;
+    height: 0.5px;
+}
+
+.utilities div{
+    background: #3498DB;
+    width: 30%;
+}
+
+.utilities {
+    flex-wrap: wrap;
+}
+
+.utilities .checkbox-container input:checked ~ .checkmark {
+    background-color: white
+}
+
+.utilities .checkbox-container {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.utilities .checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .checkmark {
+    position: absolute;
+    background-color: skyblue !important;
+  }
+
+.checkbox-container input{
+    zoom:1.5
+}
+
+.checkbox-container span{
+    padding-top: 20%;
+}
